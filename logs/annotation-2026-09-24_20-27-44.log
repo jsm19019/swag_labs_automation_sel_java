@@ -1,0 +1,8 @@
+2026-09-24 20:27:48 INFO  testCases.LoginProcessValidation_TC_002 - started fetching
+2026-09-24 20:27:49 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-09-24 20:27:49 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-09-24 20:27:51 INFO  testCases.LoginProcessValidation_TC_002 - got the username
+2026-09-24 20:27:54 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-09-24 20:27:54 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-09-24 20:27:54 INFO  testCases.LoginProcessValidation_TC_002 - got the password
+2026-09-24 20:27:54 INFO  testCases.LoginProcessValidation_TC_002 - clicked login
