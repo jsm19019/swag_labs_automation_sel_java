@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-07T19:11:06 IST" name="Suite" finished-at="2026-10-07T19:11:21 IST" duration-ms="15064">
+  <suite started-at="2026-10-09T12:41:32 IST" name="Suite" finished-at="2026-10-09T12:41:44 IST" duration-ms="12154">
     <groups>
     </groups>
-    <test started-at="2026-10-07T19:11:06 IST" name="Test" finished-at="2026-10-07T19:11:21 IST" duration-ms="15064">
+    <test started-at="2026-10-09T12:41:32 IST" name="Test" finished-at="2026-10-09T12:41:44 IST" duration-ms="12154">
       <class name="testCases.LoginPageValidation_TC_001">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginPageValidation_TC_001@229f66ed]" started-at="2026-10-07T19:11:06 IST" name="setup" finished-at="2026-10-07T19:11:09 IST" duration-ms="2954" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginPageValidation_TC_001@6f03482]" started-at="2026-10-09T12:41:32 IST" name="setup" finished-at="2026-10-09T12:41:34 IST" duration-ms="2177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageValidation()[pri:0, instance:testCases.LoginPageValidation_TC_001@229f66ed]" started-at="2026-10-07T19:11:09 IST" name="loginPageValidation" finished-at="2026-10-07T19:11:10 IST" duration-ms="1208" status="PASS">
+        <test-method signature="loginPageValidation()[pri:0, instance:testCases.LoginPageValidation_TC_001@6f03482]" started-at="2026-10-09T12:41:34 IST" name="loginPageValidation" finished-at="2026-10-09T12:41:35 IST" duration-ms="1200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageValidation_TC_001@229f66ed]" started-at="2026-10-07T19:11:10 IST" name="tearDown" finished-at="2026-10-07T19:11:10 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPageValidation_TC_001@6f03482]" started-at="2026-10-09T12:41:35 IST" name="tearDown" finished-at="2026-10-09T12:41:35 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.LoginPageValidation_TC_001 -->
       <class name="testCases.LoginProcessValidation_TC_002">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginProcessValidation_TC_002@77c2494c]" started-at="2026-10-07T19:11:10 IST" name="setup" finished-at="2026-10-07T19:11:12 IST" duration-ms="1737" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginProcessValidation_TC_002@7eac9008]" started-at="2026-10-09T12:41:35 IST" name="setup" finished-at="2026-10-09T12:41:37 IST" duration-ms="1173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,11 +49,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginPage()[pri:0, instance:testCases.LoginProcessValidation_TC_002@77c2494c]" started-at="2026-10-07T19:11:12 IST" name="testLoginPage" finished-at="2026-10-07T19:11:21 IST" duration-ms="8655" status="PASS">
+        <test-method signature="testLoginPage()[pri:0, instance:testCases.LoginProcessValidation_TC_002@7eac9008]" started-at="2026-10-09T12:41:37 IST" name="testLoginPage" finished-at="2026-10-09T12:41:43 IST" duration-ms="6854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginProcessValidation_TC_002@77c2494c]" started-at="2026-10-07T19:11:21 IST" name="tearDown" finished-at="2026-10-07T19:11:21 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginProcessValidation_TC_002@7eac9008]" started-at="2026-10-09T12:41:43 IST" name="tearDown" finished-at="2026-10-09T12:41:44 IST" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

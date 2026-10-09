@@ -4,6 +4,12 @@
 
 	<parameter name="os" value="windows"></parameter>
 	<parameter name="browser" value="chrome"></parameter>
+	
+	<listeners>
+	
+	<listener class-name="utilities.ReportsManager"></listener>
+	
+	</listeners>
 
 	<test thread-count="5" name="Test">
 		<classes>

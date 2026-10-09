@@ -1,17 +1,18 @@
 package utilities;
 
-import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 public class CurrentTime {
 	
-	public int currentTime()
+	public static void main(String args[]) {
+		
+		
+		LocalTime time = LocalTime.now();
+		System.out.println(time);
+		
 
-	{
-		LocalDateTime  time = LocalDateTime.now();
-		int hour = time.getHour();
-		int day =  time.getDayOfMonth();
-		int min= time.getMinute();
-		int sec = time.getSecond();
-		return day+hour+min+sec;
+		
 	}
+
+	
 }

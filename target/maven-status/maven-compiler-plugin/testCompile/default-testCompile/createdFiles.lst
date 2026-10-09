@@ -1,9 +1,9 @@
+testCases\LoginProcessValidation_TC_002.class
+pageObjects\HomePage.class
+testCases\BaseTest.class
 utilities\ExcelUtils.class
 pageObjects\LoginPage.class
 pageObjects\BasePage.class
-testCases\LoginProcessValidation_TC_002.class
-pageObjects\HomePage.class
 actionMethods\ActionMethods.class
-testCases\BaseTest.class
 testCases\LoginPageValidation_TC_001.class
 utilities\CurrentTime.class
