@@ -17,7 +17,7 @@ import org.testng.annotations.Parameters;
 
 public class BaseTest {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Logger logger;
 	public Properties p;
 

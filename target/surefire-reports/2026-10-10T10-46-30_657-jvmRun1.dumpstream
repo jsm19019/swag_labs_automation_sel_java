@@ -1,0 +1,3 @@
+# Created at 2026-10-10T10:46:40.381
+Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "snap" is null
+

@@ -4,17 +4,17 @@
 
 	<parameter name="os" value="windows"></parameter>
 	<parameter name="browser" value="chrome"></parameter>
-	
+
 	<listeners>
-	
-	<listener class-name="utilities.ReportsManager"></listener>
-	
+		<listener class-name="utilities.ReportsManager"></listener>
 	</listeners>
 
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="testCases.LoginPageValidation_TC_001" />
 			<class name="testCases.LoginProcessValidation_TC_002" />
+			<class name="testCases.TestAddtoCartbutton_TC_003" />
+			<class name="testCases.TestCartCount_TC_004" />
 		</classes>
 	</test>
 

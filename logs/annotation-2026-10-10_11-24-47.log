@@ -1,0 +1,10 @@
+2026-10-10 11:24:49 DEBUG testCases.LoginPageValidation_TC_001 - Starting testing...
+2026-10-10 11:24:49 DEBUG testCases.LoginPageValidation_TC_001 - Text captured
+2026-10-10 11:24:51 INFO  testCases.LoginProcessValidation_TC_002 - started fetching
+2026-10-10 11:24:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-10-10 11:24:52 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-10-10 11:24:53 INFO  testCases.LoginProcessValidation_TC_002 - got the username
+2026-10-10 11:24:53 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-10-10 11:24:53 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-10-10 11:24:54 INFO  testCases.LoginProcessValidation_TC_002 - got the password
+2026-10-10 11:24:54 INFO  testCases.LoginProcessValidation_TC_002 - clicked login
