@@ -24,7 +24,7 @@ public class TestCartCount_TC_004 extends BaseTest {
 		am.clickMethod(lp.btnLogoin);
 		am.clickMethod(hp.btndirectaddtocartone);
 		String count = am.gettext(hp.cartcount);
-		Assert.assertEquals(count, "1");
+		Assert.assertEquals(count, "2");
 
 	}
 

@@ -10,6 +10,8 @@ public class Screenshot {
 
 	public WebDriver driver;
 
+	CurrentDateTime cdt = new CurrentDateTime();
+
 	public Screenshot(WebDriver driver) {
 
 		this.driver = driver;
@@ -18,11 +20,14 @@ public class Screenshot {
 
 	public String captureScreenshot(String testname) {
 
+		String timedate = cdt.currentdateTime();
+
 		TakesScreenshot snap = (TakesScreenshot) driver;
 
 		File source = snap.getScreenshotAs(OutputType.FILE);
 
-		String filepath = System.getProperty("user.dir") + "/Screenshots/" + testname + ".png";
+		String filepath = System.getProperty("user.dir") + "/Screenshots/" + "Snap-" + testname + "-" + timedate
+				+ ".png";
 
 		File destination = new File(filepath);
 

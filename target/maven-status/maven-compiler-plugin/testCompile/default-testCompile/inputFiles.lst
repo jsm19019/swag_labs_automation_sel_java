@@ -5,7 +5,9 @@ D:\Work\Java_Workspace\com.saucedemo\src\test\java\pageObjects\LoginPage.java
 D:\Work\Java_Workspace\com.saucedemo\src\test\java\testCases\BaseTest.java
 D:\Work\Java_Workspace\com.saucedemo\src\test\java\testCases\LoginPageValidation_TC_001.java
 D:\Work\Java_Workspace\com.saucedemo\src\test\java\testCases\LoginProcessValidation_TC_002.java
-D:\Work\Java_Workspace\com.saucedemo\src\test\java\utilities\CurrentTime.java
+D:\Work\Java_Workspace\com.saucedemo\src\test\java\testCases\TestAddtoCartbutton_TC_003.java
+D:\Work\Java_Workspace\com.saucedemo\src\test\java\testCases\TestCartCount_TC_004.java
+D:\Work\Java_Workspace\com.saucedemo\src\test\java\utilities\CurrentDateTime.java
 D:\Work\Java_Workspace\com.saucedemo\src\test\java\utilities\ExcelUtils.java
 D:\Work\Java_Workspace\com.saucedemo\src\test\java\utilities\ReportsManager.java
 D:\Work\Java_Workspace\com.saucedemo\src\test\java\utilities\Screenshot.java

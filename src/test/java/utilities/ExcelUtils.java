@@ -19,12 +19,12 @@ public class ExcelUtils {
 	XSSFCell col;
 
 	public String getcellData(int rownum, int cellnum) throws IOException {
-		
+
 		System.out.println("Before opening Excel");
 		fi = new FileInputStream(System.getProperty("user.dir") + "/testData/test_data.xlsx");
 
 		wb = new XSSFWorkbook(fi);
-		
+
 		System.out.println("Excel opened successfully");
 
 		XSSFSheet sheet = wb.getSheet("LoginData");

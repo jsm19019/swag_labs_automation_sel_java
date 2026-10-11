@@ -6,4 +6,3 @@ pageObjects\LoginPage.class
 pageObjects\BasePage.class
 actionMethods\ActionMethods.class
 testCases\LoginPageValidation_TC_001.class
-utilities\CurrentTime.class

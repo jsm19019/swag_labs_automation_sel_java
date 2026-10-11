@@ -19,10 +19,13 @@ public class ReportsManager implements ITestListener {
 	ExtentReports reports;
 	ExtentTest test;
 	public WebDriver driver;
+	CurrentDateTime cdt = new CurrentDateTime();
 
 	public void onStart(ITestContext context) {
 
-		spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/Reports/report.html");
+		String datetime = cdt.currentdateTime();
+
+		spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/Reports/" + "Report-" + datetime + ".html");
 		spark.config().setDocumentTitle("Test Report");
 		spark.config().setReportName("Shanmukesh");
 		spark.config().setTheme(Theme.DARK);
